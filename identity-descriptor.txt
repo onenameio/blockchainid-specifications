@@ -5,8 +5,7 @@
         "baseURI": "https://s3.amazonaws.com/onename/ryan/",
         "publicItems": [
             { "chainPath": "5f62e66e25b7f51b45585131f60d6e6b7a51cc356f3435f4a0c427d69ae647bd" },
-            { "chainPath": "c8d848005bde775487be82e43b4d885e1b29ffaebfcdb7fa8f262dbd190a7e1a" },
-            { "chainPath": "bd62885ec3f0e3838043115f4ce25eedd22cc86711803fb0c19601eeef185e39" }
+            { "chainPath": "bd62885ec3f0e3838043115f4ce25eedd22cc86711803fb0c19601eeef185e39", "filename": "bd62885ec3f0.txt" }
         ]
     }],
     "auth": [{
@@ -15,8 +14,7 @@
         "publicKey": [
             "xpub69W5QnTxuA3VSXzJUopfm3T5aX51HJGQo8mvvkRqwWNNbpnjQp3gb9ghpJk6NHxymLMqWPn3J2qr4vkG7Bcc9qqwg3Nom1XwR9yajP9nemf"
         ]
-    },
-    {
+    }, {
         "keyType": "ECDSAExtended",
         "authLevel": "2",
         "publicKey": [

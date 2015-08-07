@@ -1,0 +1,19 @@
+{
+    "header": {
+        "typ": "JWT",
+        "alg": "ES256"
+    },
+    "payload": {
+        "issuer": "0390424561c8ee33b2b18449e0766a5212f6ac1ffdab78030e7b42995305ba9550",
+        "claims": [{
+            "subject": "0390424561c8ee33b2b18449e0766a5212f6ac1ffdab78030e7b42995305ba9550",
+            "content": {
+                "name": "Ryan Shea",
+                "givenName": "Ryan",
+                "familyName": "Shea"
+            }
+        }],
+        "issuedAt": 1437000854
+    },
+    "signature": "MEQCIGrjgb_6OP4Sz248ybzOLSc9pg2mVrAiFmmew3Fghu50AiBAELTuIr8NDGou-qyYgv8RvkIW59giljRb0fWeR-gwfA"
+}

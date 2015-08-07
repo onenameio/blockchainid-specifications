@@ -1,0 +1,17 @@
+{
+    "header": {
+        "typ": "JWT",
+        "alg": "ES256"
+    },
+    "payload": {
+        "issuer": "0358c8d156beb1862b7e701c629ad59234a08b1f20a9dae2bc0abb117da71c564f",
+        "claims": [{
+            "subject": "0358c8d156beb1862b7e701c629ad59234a08b1f20a9dae2bc0abb117da71c564f",
+            "content": {
+                "birthDate": "1990-05-19"
+            }
+        }],
+        "issuedAt": 1437000854
+    },
+    "signature": "MEUCIQC9kH9ndjxbCCNsOAeRv5np1up-v204Bb7khwqqtivIrgIgKRy4rGuFjae5PlSPb4kp5HWiCzKPW8Rw1GERSmHC6Y0"
+}

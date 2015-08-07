@@ -1,0 +1,23 @@
+{
+    "header": {
+        "typ": "JWT",
+        "alg": "ES256"
+    },
+    "payload": {
+        "issuer": "035e5f97df06486c688abd900794bfb7b2edeef708ef9dc8c980c754f6dab9d883",
+        "claims": [{
+            "subject": "035e5f97df06486c688abd900794bfb7b2edeef708ef9dc8c980c754f6dab9d883",
+            "content": {
+                "accounts": [{
+                    "service": "twitter",
+                    "username": "ryaneshea"
+                }, {
+                    "service": "facebook",
+                    "username": "ryaneshea"
+                }]
+            }
+        }],
+        "issuedAt": 1437000854
+    },
+    "signature": "MEUCIF6YdO-gz0k0Eq0afPdbZTJ146BP87T3-z9vbZoxj6XTAiEAzoUHb4Tss7Z6-wXPWtnUx5hVzkumvHKI2zemBt1ljVs"
+}

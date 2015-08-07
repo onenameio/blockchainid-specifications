@@ -1,0 +1,13 @@
+{
+    "@type": "Person",
+    "name": "Ryan Shea",
+    "givenName": "Ryan",
+    "familyName": "Shea",
+    "accounts": [{
+        "service": "twitter",
+        "username": "ryaneshea"
+    }, {
+        "service": "facebook",
+        "username": "ryaneshea"
+    }]
+}
