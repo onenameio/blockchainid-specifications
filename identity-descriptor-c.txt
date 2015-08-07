@@ -1,33 +1,32 @@
 {
-    "profile": {
+    "profile": [{
         "keyType": "ECDSAExtended",
-        "masterPublicKey": "xpub69W5QnTxuA3VSXzJUopfm3T5aX51HJGQo8mvvkRqwWNNbpnjQp3gb9ghpJk6NHxymLMqWPn3J2qr4vkG7Bcc9qqwg3Nom1XwR9yajP9nemf",
+        "publicKey": "xpub69W5QnTxuA3VSXzJUopfm3T5aX51HJGQo8mvvkRqwWNNbpnjQp3gb9ghpJk6NHxymLMqWPn3J2qr4vkG7Bcc9qqwg3Nom1XwR9yajP9nemf",
         "baseURI": "https://s3.amazonaws.com/onename/ryan/",
         "publicItems": [
-            "5f62e66e25b7f51b45585131f60d6e6b7a51cc356f3435f4a0c427d69ae647bd",
-            "c8d848005bde775487be82e43b4d885e1b29ffaebfcdb7fa8f262dbd190a7e1a",
-            "bd62885ec3f0e3838043115f4ce25eedd22cc86711803fb0c19601eeef185e39"
+            { "chainPath": "5f62e66e25b7f51b45585131f60d6e6b7a51cc356f3435f4a0c427d69ae647bd" },
+            { "chainPath": "c8d848005bde775487be82e43b4d885e1b29ffaebfcdb7fa8f262dbd190a7e1a" },
+            { "chainPath": "bd62885ec3f0e3838043115f4ce25eedd22cc86711803fb0c19601eeef185e39" }
+        ]
+    }],
+    "auth": [{
+        "keyType": "ECDSAExtended",
+        "authLevel": "1",
+        "publicKey": [
+            "xpub69W5QnTxuA3VSXzJUopfm3T5aX51HJGQo8mvvkRqwWNNbpnjQp3gb9ghpJk6NHxymLMqWPn3J2qr4vkG7Bcc9qqwg3Nom1XwR9yajP9nemf"
         ]
     },
-    "auth": [
-        {
-            "authLevel": "1",
-            "publicKeys": [
-                "xpub69W5QnTxuA3VSXzJUopfm3T5aX51HJGQo8mvvkRqwWNNbpnjQp3gb9ghpJk6NHxymLMqWPn3J2qr4vkG7Bcc9qqwg3Nom1XwR9yajP9nemf"
-            ]
-        },
-        {
-            "authLevel": "2",
-            "publicKeys": [
-                "xpub69W5QnTxuA3VNKc6y2dbhzJV8if37ces8JQCrPEfdLst48pVAGSkBtwZArxgXGoHuM6Xmoy6MTWvNewnhf2CMfGHJ6W2BSfV35p18ZYRPcX",
-                "xpub69W5QnTxuA3VPKvRA4TSSjvAD7CXDmBk9VHrsrEk3XcSCQUdqDAcPHj8UwQd8WagErMaXmkSnjiAMauivRruU66yVdCURwUAt7YBtqt8FEf"
-            ]
-        }
-    ],
-    "encryption": {
+    {
+        "keyType": "ECDSAExtended",
+        "authLevel": "2",
+        "publicKey": [
+            "xpub69W5QnTxuA3VNKc6y2dbhzJV8if37ces8JQCrPEfdLst48pVAGSkBtwZArxgXGoHuM6Xmoy6MTWvNewnhf2CMfGHJ6W2BSfV35p18ZYRPcX",
+            "xpub69W5QnTxuA3VPKvRA4TSSjvAD7CXDmBk9VHrsrEk3XcSCQUdqDAcPHj8UwQd8WagErMaXmkSnjiAMauivRruU66yVdCURwUAt7YBtqt8FEf"
+        ]
+    }],
+    "encryption": [{
         "keyType": "PGP",
-        "publicKeys": [
-                "-----BEGIN PGP PUBLIC KEY BLOCK-----
+        "publicKey": "-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1
 
 mQINBFVmNs4BEADqm03X9IrDkj8dA1FKgeiKvkb+9j1n6sOxHkph9eo0jZoEzyyu
@@ -79,6 +78,5 @@ Olkz/apd4tW9MdYF3LwEDfpc+aKbGNfSvr35KjV9NDLPksPhyPp6J7EOpCDsCeS+
 ET6u
 =hvNf
 -----END PGP PUBLIC KEY BLOCK-----"
-        ]
-    }
+    }]
 }
