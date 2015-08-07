@@ -2,7 +2,7 @@
     "profile": [{
         "keyType": "ECDSAExtended",
         "publicKey": "xpub69W5QnTxuA3VSXzJUopfm3T5aX51HJGQo8mvvkRqwWNNbpnjQp3gb9ghpJk6NHxymLMqWPn3J2qr4vkG7Bcc9qqwg3Nom1XwR9yajP9nemf",
-        "baseURI": "https://s3.amazonaws.com/onename/ryan/",
+        "baseURI": "https://s3.amazonaws.com/onename/",
         "publicItems": [
             { "chainPath": "5f62e66e25b7f51b45585131f60d6e6b7a51cc356f3435f4a0c427d69ae647bd" },
             { "chainPath": "bd62885ec3f0e3838043115f4ce25eedd22cc86711803fb0c19601eeef185e39", "filename": "bd62885ec3f0.txt" }
