@@ -1,7 +1,5 @@
 # blockchainid-specifications
 
-## Spec C
-
 There are three components to the identity descriptor file:
 
 + profile
