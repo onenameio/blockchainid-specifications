@@ -1,0 +1,12 @@
+{
+    "header": {
+        "typ": "JWT",
+        "alg": "ES256"
+    },
+    "payload": {
+        "issuer": "0390424561c8ee33b2b18449e0766a5212f6ac1ffdab78030e7b42995305ba9550",
+        "issuedAt": 1437000854,
+        "challenge": "ad21e749-b8dc-4167-9486-72c92a85227a"
+    },
+    "signature": "MEUCIQDzUaSrgTR_tTpNSVcitKYvYWd3bc3uylMe3xCfo-QclQIgDLN1hgXSyqiEk0AGQ21XB2wzuqrotTmE_yN3pn4f_38"
+}
